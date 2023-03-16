@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TodoMesagge/static/css/main.17f4a7d6.css",
+    "main.js": "/TodoMesagge/static/js/main.94ff434a.js",
+    "static/media/img-2.jpg": "/TodoMesagge/static/media/img-2.e768f61e366d7fc7ffc4.jpg",
+    "static/media/img-5.jpg": "/TodoMesagge/static/media/img-5.e7a87d5d442d19de505d.jpg",
+    "static/media/img-3.jpg": "/TodoMesagge/static/media/img-3.9d15a9b103c91c8deec4.jpg",
+    "static/media/img-4.jpg": "/TodoMesagge/static/media/img-4.778b485c45813b817533.jpg",
+    "static/media/img-6.jpg": "/TodoMesagge/static/media/img-6.9e9a0db8167f4b1a7f81.jpg",
+    "static/media/img-1.jpg": "/TodoMesagge/static/media/img-1.61e06266ec3c9c3faa7d.jpg",
+    "static/media/logo.webp": "/TodoMesagge/static/media/logo.045c8a618f335861a124.webp",
+    "static/media/slick.svg": "/TodoMesagge/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/TodoMesagge/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/TodoMesagge/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/TodoMesagge/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/TodoMesagge/index.html",
+    "main.17f4a7d6.css.map": "/TodoMesagge/static/css/main.17f4a7d6.css.map",
+    "main.94ff434a.js.map": "/TodoMesagge/static/js/main.94ff434a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17f4a7d6.css",
+    "static/js/main.94ff434a.js"
+  ]
+}
