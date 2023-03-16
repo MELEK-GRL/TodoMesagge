@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boxCenter{
+    @apply flex items-center justify-center
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.boxEnd{
+    @apply flex items-end justify-end
+}
+.boxStart{
+    @apply flex items-start justify-start
+}
+.colorText{
+    @apply text-gray-600 font-semibold text-[15px]
+}
+.aciteves{
+    @apply   text-gray-400  hover:transition-all  hover:duration-150 hover:transform
+}
+.activeNone{
+    @apply  hover:text-gray-400 hover:transition-all  hover:duration-150 hover:transform
+}
+.activeVisible{
+    @apply visible fixed
+}
+
+.borderMenu{
+    @apply  border-r border-gray-500  border-l
+}
+.dropdown{
+    @apply visible z-30 hover:transition-all  hover:duration-150 hover:transform
+}
+
+.search{
+    @apply visible z-30 sm:w-[300px] md:w-[350px] xl:w-[400px]  w-[130px] hover:transition-all  hover:duration-150 hover:transform
+}
+.visibleList{
+    @apply visible
+}
+.likes{
+    @apply text-red-500
+}
+.saves{
+    @apply text-green-500
+}
+.postHover{
+    @apply  px-1 py-[2px] hover:bg-gray-400 hover:text-white hover:transition-all  hover:duration-150 hover:transform
+}
+.btnFollow{
+   @apply rounded p-1 text-[12px] hover:transition-all  hover:duration-150 hover:transform bg-purple-500 text-white hover:bg-white hover:text-purple-500 border-purple-500 border 
+}
+.btnFollowTo{
+    @apply font-semibold rounded p-1 text-[12px] hover:transition-all  hover:duration-150 hover:transform bg-orange-500 text-white hover:bg-white hover:text-orange-500 border-orange-500 border 
+ }
+ .avatar {
+    width: 1em;
+    height: 1em;
+    position: relative;
+  }
+  .avatar input {
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    cursor: pointer;
+  }
+.slick-active button{
+    width: 10px;
+    height: 10px;
+}
+.bttonSlide{
+    @apply font-semibold text-[12px] border py-[1px] px-6 border-black rounded-lg hover:bg-black hover:text-white hover:transform hover:transition-all hover:duration-200 
 }
