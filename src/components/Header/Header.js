@@ -17,7 +17,7 @@ export default function Header() {
     menu.current.classList.toggle("activeVisible");
   };
   return (
-    <div className="flex flex-col w-full z-20 ">
+    <div className="flex flex-col w-full z-20 bg-white">
       <div className="bg-headers flex items-center w-full justify-between shadow-md fixed px-8 py-[2px]">
        <Link to='/'> <img src={logo} alt={logo} className="w-20 h-10 object-contain" /></Link>
         <nav className="boxCenter gap-6 md:visible invisible w-0 md:w-fit colorText ">
